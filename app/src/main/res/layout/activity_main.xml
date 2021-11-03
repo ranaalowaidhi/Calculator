@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/calculator_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        tools:text="1+2"
+        android:paddingEnd="40sp"
+        android:textColor="@color/white"
+        android:textAlignment="viewEnd"
+        android:textSize="60sp"
+        android:layout_marginTop="150sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <RelativeLayout
+            android:id="@+id/num_7_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_marginEnd="10sp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/num_8_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_marginEnd="10sp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/num_9_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_marginEnd="10sp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/times_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round2"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:textSize="30sp">
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:src="@drawable/ic_times_op"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <RelativeLayout
+            android:id="@+id/num_4_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_marginEnd="10sp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/num_5_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_marginEnd="10sp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/num_6_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_marginEnd="10sp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/div_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round2"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:textSize="30sp">
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/ic_div_op"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <RelativeLayout
+            android:id="@+id/num_1_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_marginEnd="10sp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/num_2_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_marginEnd="10sp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/num_3_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_marginEnd="10sp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/min_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round2"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:textSize="30sp">
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/ic_min_op"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10sp">
+
+        <RelativeLayout
+            android:id="@+id/num_0_btn"
+            android:layout_width="170sp"
+            android:layout_height="80sp"
+            android:background="@drawable/btn_shap"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="10sp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_marginStart="30sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/equal_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round2"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_marginEnd="10sp" >
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/ic_equal_op"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/plus_btn"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:background="@drawable/button_bg_round2"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:textSize="30sp">
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:src="@drawable/ic_plus_op"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
